@@ -4,7 +4,7 @@ def to_uppercase(s):
 
 
 def convert_to_uppercase(string):
-    """Преобразование заданной строки в верхний регистр"""
+    """Преобразовывает заданную строку в верхний регистр"""
     return string.upper()
 
 
