@@ -9,7 +9,7 @@ def convert_to_uppercase(string):
 
 
 def capitalize_first_letters(string):
-    """Заглавные первые буквы каждого слова в строке"""
+    """Преобразовывает заглавные первые буквы каждого слова в строке"""
     words = string.split()
     capitalized_words = [word.capitalized() for word in words]
     return ' '.join(capitalized_words)
